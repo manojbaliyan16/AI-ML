@@ -13,3 +13,9 @@ venv/
 
 # Env
 .env
+
+# Datasets downloaded by notebooks (zomato_dataset.csv is ~460 MB, over GitHub's 100 MB limit)
+*.zip
+*.zip.[0-9]*
+zomato_dataset*
+*.csv
