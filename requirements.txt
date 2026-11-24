@@ -6,3 +6,5 @@ scipy
 gdown
 jupyterlab
 ipykernel
+pyarrow
+openpyxl
