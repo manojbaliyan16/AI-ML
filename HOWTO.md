@@ -1,6 +1,6 @@
 # How to run the notebooks locally
 
-Everything runs from the `.venv` in this repo (Python 3.13, JupyterLab, NumPy, pandas, matplotlib, seaborn, scipy, gdown). No Colab needed.
+Everything runs from the `.venv` in this repo (Python 3.13, packages listed in `requirements.txt`). No Colab needed.
 
 ## Run a notebook
 
