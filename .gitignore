@@ -19,3 +19,6 @@ venv/
 *.zip.[0-9]*
 zomato_dataset*
 *.csv
+
+# Small teaching datasets that are safe to track
+!pandas_eda/data/titanic.csv
