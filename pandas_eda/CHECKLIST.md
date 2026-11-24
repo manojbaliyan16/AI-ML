@@ -3,8 +3,8 @@
 Tick a box by changing `[ ]` to `[x]`. Do milestones in order.
 
 ## Setup
-- [x] Python environment created (uv, pandas, seaborn, JupyterLab)
-- [ ] Launch JupyterLab with `uv run jupyter lab` and open a notebook with the "Pandas Practice" kernel
+- [x] Python environment created (`.venv`, deps in `requirements.txt`)
+- [ ] From the repo root run `source .venv/bin/activate && jupyter lab`, then open a notebook with the "AI-ML (.venv)" kernel (name `ai-ml`)
 - [ ] Bookmark: pandas docs, Kaggle Learn, McKinney book
 
 ## Milestone 0: Python minimum
