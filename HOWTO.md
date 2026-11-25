@@ -17,7 +17,7 @@ source .venv/bin/activate
 jupyter lab
 ```
 
-JupyterLab opens in the browser. Open any notebook from the file tree, for example `Module_1_NP_PD/session 4.ipynb`. Use the kernel named `Python 3` (or `AI-ML (.venv)`). Stop the server with Ctrl+C in the terminal.
+JupyterLab opens in the browser. Open any notebook from the file tree, for example `Module_1_NP_PD/notebooks/session 4.ipynb`. Use the kernel named `Python 3` (or `AI-ML (.venv)`). Stop the server with Ctrl+C in the terminal.
 
 Without activating the venv:
 

@@ -3,7 +3,10 @@
 All work for this learner happens in this repo only. Remote: github.com/manojbaliyan16/AI-ML.
 
 ## Layout
-- `Module_1_NP_PD/` course notebooks (reference material, do not edit)
+- `Module_1_NP_PD/`
+  - `notebooks/` class notebooks, one per session (`session 4`, `Session_5`, ...) and the learner's own work. The live-class notebook for the current topic is `Session_N_class.ipynb`. Never overwrite the learner's answers in an existing notebook; add a new file for answer keys. Do not commit empty notebooks.
+  - `data/` datasets, never committed (only `.gitkeep` is tracked). `data/amazon_data4/` is the working copy; `data/downloads/` holds raw zips and stray copies. From a notebook in `notebooks/` read data as `../data/amazon_data4/orders.csv`.
+  - `docs/` pre-reads and class documents
 - `python/`, `numpy/` topic folders (currently empty placeholders)
 - `pandas_eda/` self-study track: Pandas and EDA, novice to advanced
   - `CHECKLIST.md` progress tracker (milestones 0-6), `ORIGINAL_PROMPT.md` the original request
@@ -19,6 +22,8 @@ All work for this learner happens in this repo only. Remote: github.com/manojbal
 - To check work, read the saved `.ipynb` (outputs included). Remind the learner to save with Ctrl+S first.
 - Ask for each answer as a plain-English comment under the cell.
 - Never overwrite the learner's notebooks. Put new exercises or answer keys in new files.
+- Run it like a live class: explain one concept in chat, add only that lesson's exercise (empty cells) to the class notebook, wait for the learner to solve and save, validate the saved answers, then move to the next lesson. Each lesson in the notebook gets a short concept-notes cell (with a different worked example from the tasks) above its empty task cells. Never pre-fill all lessons at once, never put solutions in, and never write a cell-by-cell walkthrough.
+- Class-notes topics come from the learner's class notebook and pre-read docx. Teach those only, as hands-on practice, not theory.
 
 ## Environment
 - Venv at `.venv` (Python 3.13), deps in `requirements.txt` (add new ones there). Kernel name: `ai-ml`, display "AI-ML (.venv)".
