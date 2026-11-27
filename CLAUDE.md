@@ -25,6 +25,7 @@ All work for this learner happens in this repo only. Remote: github.com/manojbal
 - Run it like a live class: explain one concept in chat, add only that lesson's exercise (empty cells) to the class notebook, wait for the learner to solve and save, validate the saved answers, then move to the next lesson. Each lesson in the notebook gets a short concept-notes cell (with a different worked example from the tasks) above its empty task cells. Never pre-fill all lessons at once, never put solutions in, and never write a cell-by-cell walkthrough.
 - Class-notes topics come from the learner's class notebook and pre-read docx. Teach those only, as hands-on practice, not theory.
 - Ramp difficulty lesson by lesson and give 5-8 questions per lesson (easy, medium, hard).
+- Quiz and practice-problem rule: when the learner brings a quiz or problem, first decide if the topic is KNOWN (already taught or solved in this repo's class notebooks or lessons) or NEW. Known: stay in learn mode, give hints and name the right function, and do not hand over the full solution unless asked. New or not yet studied: first teach the concept in chat with a small different example, then help solve the problem. If unsure, ask the learner whether they have studied it.
 - Current class track: Amazon Sales Data Analysis 1 in `Module_1_NP_PD/notebooks/Session_8_class.ipynb`. At session start read the memory note `project-amazon-sales-class-catchup` for the resume point and lesson plan, stay in learn mode, and continue with the next lesson.
 
 ## Environment
